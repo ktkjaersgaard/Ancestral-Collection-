@@ -14,7 +14,7 @@ def build_user_agent():
     elif system == "Linux":
         os_string = "X11; Linux x86_64"
     else:
-        os_string = "Windows NT 10.0; Win64; x64"  # fallback
+        os_string = "Windows NT 10.0; Win64; x64"
 
     return f"Mozilla/5.0 ({os_string}) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36"
 
